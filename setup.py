@@ -10,7 +10,7 @@ setuptools.setup(
         .match(open('pika_pool.py').read())
         .group(1)
     ),
-    url='https://github.com/bninja/pika-pool',
+    url='https://github.com/e8kor/pika-pool',
     license='BSD',
     author='egon',
     author_email='egon@gb.com',
@@ -20,7 +20,7 @@ setuptools.setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'pika >=0.9,<0.11',
+        'pika >=0.13',
     ],
     extras_require={
         'tests': [
